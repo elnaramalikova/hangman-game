@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#root1{
+    width: 60%;
+    text-align: center;
+    margin: 10px;
+}
+
+#root{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10%;
+    margin: auto;
+}
+.category{
+    text-align: center;
+    font-style: italic;
+    color: rgb(56, 107, 151);
+    margin-left: 6%;
+}
+#root button{
+   width: 40%;
+   padding: 10px 0;
+    background-color: rgb(91, 125, 155);
+    margin: 2%;
+    border: none;
+    border-radius: 6%;
+
+}
+#btns-alphabet{
+    width: 50%;
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+#btns-alphabet p{
+    width: 100%;
+    text-align: center;
+}
+.alphabet{
+    padding: 15px;
+    margin: 10px 10px 0  0;
+    background-color:rgb(91, 125, 155)  ;
+    border-radius: 5px;
+    outline: none;
+}
+#main{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
+#hangman{
+    width: 100%;
+    height: 300px;
+    display: none;
+    position: relative;
+     background-image: url("../img/fon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+#hang1{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    background-image: url("../img/hangtree.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang2{
+    width: 22px;
+    height: 59px;
+    position: absolute;
+    top: 19%;
+    left: 32%;
+    background-image: url("../img/string.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    background-image: url("../img/head.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang4{
+    width: 71px;
+    height: 39px;
+    position: absolute;
+    top: 41%;
+    left: 26%;
+    background-image: url("../img/body.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang5{
+    width: 39px;
+    height: 29px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    background-image: url("../img/short.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang6{
+    width: 15px;
+    height: 29px;
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    background-image: url("../img/leftarm.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang7{
+    width: 15px;
+    height: 29px;
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    background-image: url("../img/rightarm.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang8{
+    width: 16px;
+    height: 26px;
+    position: absolute;
+    top: 61%;
+    left: 30%;
+    background-image: url("../img/leftleg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#hang9{
+    width: 16px;
+    height: 26px;
+    position: absolute;
+    top: 61%;
+    left: 36%;
+    background-image: url("../img/rightleg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#final{
+    width:80%;
+    display: none;
+    text-align: center;
+}
+#finalh1{
+    color: rgb(56, 107, 151);
+    font-style: italic;
+}
+#gif{
+
+    padding: 21% 0;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.won{
+    width: 50%;
+    background-image: url("../img/source.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lost{
+    width: 80%;
+    background-image: url("../img/lose.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#new{
+    background-color: rgb(111, 157, 197);
+    padding: 2% 4%;
+    margin: 1%;
+    outline: none;
+    border-radius: 10%;
+    border: none;
+}
